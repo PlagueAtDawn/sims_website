@@ -1,0 +1,133 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 40px;
+}
+
+/*********** Front **************/
+/**** Color ****/
+.front_body {
+  background-color: #558e55;
+}
+
+/**** Fonts ****/
+@font-face {
+  font-family: "tan_-_pearlregular";
+  src:
+    url("fonts/tan_-_pearl-webfont.woff2") format("woff2"),
+    url("fonts/tan_-_pearl-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ronniaw01-condensedthinRg";
+  src:
+    url("fonts/ronnia_w01_condensed_thin-webfont.woff2") format("woff2"),
+    url("fonts/ronnia_w01_condensed_thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*********** CC **************/
+/**** Color ****/
+.cc_body {
+  background-color: #558e55;
+}
+
+/**** Fonts ****/
+
+/*********** Mods **************/
+/**** Color ****/
+.mods_body {
+  background-color: #558e55;
+}
+
+/**** Fonts ****/
+
+/*********** everything else **************/
+h1 {
+  font-family: "tan_-_pearlregular";
+}
+
+p {
+  text-wrap: pretty;
+  font-family: "ronniaw01-condensedthinRg";
+}
+
+/************** Menu **************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #d9d9d9;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 40px;
+}
+
+.little_logo {
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #558e55;
+}
+
+footer {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #d9d9d9;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 40px;
+}
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}

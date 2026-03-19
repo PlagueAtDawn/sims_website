@@ -1,0 +1,69 @@
+.flex_hidden {
+  display: flex;
+  flex-wrap: nowrap;
+  img {
+    width: 33%;
+    object-fit: cover;
+  }
+  gap: 5px;
+  .hide {
+    display: none;
+  }
+  margin-block: 10px;
+  margin-inline: 10px;
+}
+/*********** Extra **************/
+@media (min-width: 1200px) {
+  .g {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  /*********** Front **************/
+  .h1_front {
+    text-align: center;
+    margin-block: 10px;
+  }
+  .h1_p {
+    text-align: center;
+    max-width: 300ch;
+    font-size: 1.05rem;
+    margin-block: 5px;
+  }
+
+  .front_twopics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-inline: 10px;
+    margin-block: 10px;
+  }
+  .front_threepics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-inline: 10px;
+    margin-block: 10px;
+  }
+
+  .flex_hidden {
+    img {
+      width: 11%;
+    }
+    .hide {
+      display: block;
+    }
+  }
+
+  .front_lasttext {
+    text-align: center;
+    max-width: 100ch;
+    font-size: 1.05rem;
+    margin-block: 5px;
+    margin-inline: auto;
+  }
+
+  /*********** CC **************/
+
+  /*********** Mods **************/
+}
